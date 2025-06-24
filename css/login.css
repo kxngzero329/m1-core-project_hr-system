@@ -1,0 +1,69 @@
+/* Full-screen background image */
+body {
+  background: url('../assets/magical-mystical-landscape-wallpaper-purple-tones.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login box card */
+.login-box {
+  background: rgba(255, 255, 255, 0.39);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  z-index: 1;
+}
+
+/* Header */
+.login-box h3 {
+  font-weight: 600;
+  color: #3d195b;
+}
+
+/* Input fields */
+.login-box .form-control {
+  background-color: rgba(255, 255, 255, 0.459);
+  border: none;
+  border-radius: 50px;
+  padding: 0.6rem 1rem;
+  color: #000000;
+  font-weight: 500;
+}
+
+.login-box .form-control::placeholder {
+  color: #7e7e7e;
+}
+
+/* Button */
+.login-box .btn {
+  background-color: #5a2674;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 0.6rem;
+  font-size: 16px;
+}
+
+.login-box .btn:hover {
+  background-color: #4b1f61;
+}
+
+/* Error */
+#error {
+  font-size: 14px;
+}
+
+/* Mobile responsive */
+@media (max-width: 500px) {
+  .login-box {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+}
